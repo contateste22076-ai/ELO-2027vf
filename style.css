@@ -1,0 +1,32 @@
+
+:root{--wine:#430d1b;--wine2:#260710;--gold:#d9b875;--cream:#fff4df;--muted:#bfae9d}
+*{box-sizing:border-box} body{margin:0;background:#f3e9df;color:var(--cream);font-family:Georgia,'Times New Roman',serif}
+header{background:var(--wine2);padding:18px 14px 22px} .banner{display:block;width:min(100%,1100px);height:auto;margin:auto;border-radius:8px}
+main{width:min(760px,calc(100% - 26px));margin:22px auto 50px}
+.panel{background:linear-gradient(145deg,#4b1020,#2a0811);border:1px solid var(--gold);border-radius:15px;padding:24px;margin:15px 0;box-shadow:0 8px 24px #2a081122}
+h1{font-size:clamp(25px,5vw,38px);margin:0 0 12px;color:var(--gold);letter-spacing:.02em}
+.intro{font:16px/1.6 Arial,sans-serif;color:#f7ead7}
+label{display:block;font-size:18px;font-weight:bold;margin:0 0 10px;color:var(--cream)}
+input,select,textarea{width:100%;padding:14px;border-radius:9px;border:1px solid #b99a60;background:#fffaf2;color:#2c1115;font:16px Arial,sans-serif;outline:none}
+textarea{min-height:140px;resize:vertical} .hint{font:13px Arial,sans-serif;color:#d7c3a8;margin-top:7px}
+button{border:0;border-radius:999px;background:linear-gradient(#f2d59b,#c49a50);color:#35101a;font-weight:bold;font-size:17px;padding:14px 28px;cursor:pointer}
+button:hover{filter:brightness(1.06)} .actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.small{font:12px Arial,sans-serif;color:#d7c3a8;line-height:1.5}
+#status{font:14px Arial,sans-serif;color:#ffe3a8;margin-top:12px}
+.admin{display:none} .response{border-top:1px solid #8e6b42;padding:12px 0;font:14px/1.5 Arial,sans-serif}
+.pill{display:inline-block;border:1px solid #a8864c;border-radius:99px;padding:5px 10px;font:12px Arial,sans-serif;color:#f2d59b}
+footer{text-align:center;color:#6c4a43;font:12px Arial,sans-serif;padding:10px 20px 30px}
+
+.hidden{display:none!important}
+header{position:relative}
+.header-actions{width:min(1100px,100%);margin:12px auto 0;display:flex;justify-content:flex-end;padding:0 4px}
+.ghost{background:transparent;border:1px solid var(--gold);color:var(--cream);font-size:14px;padding:10px 18px}
+.admin-panel{margin-top:24px}
+.admin-panel h2{color:var(--gold)}
+.admin-panel label{margin-top:14px}
+#login-status,#form-status{font:14px/1.5 Arial,sans-serif;color:#ffe3a8;margin-top:12px}
+.table-wrap{overflow-x:auto;margin-top:18px}
+table{width:100%;border-collapse:collapse;font:14px/1.5 Arial,sans-serif;color:var(--cream);min-width:600px}
+th,td{padding:10px;text-align:left;border-bottom:1px solid #8e6b42;vertical-align:top}
+th{color:var(--gold)}
+#dashboard h3{color:var(--gold)}
